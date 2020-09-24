@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>threatpursuit.win10.installer.fireeye</id>
+    <version>1.3</version>
+    <title>ThreatPursuit</title>
+    <authors>dk</authors>
+    <owners>dk</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ThreatPursuit - Cyber Threat Intelligence</description>
+    <dependencies>
+      <dependency id="common.fireeye" />
+    </dependencies>
+  </metadata>
+</package>

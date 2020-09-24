@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>threatpursuit.win10.config.fireeye</id>
+    <version>0.5</version>
+    <title>ThreatPursuit</title>
+    <authors>dk</authors>
+    <owners>dk</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ThreatPursuit - CTI Distribution</description>
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+    </dependencies>
+  </metadata>
+</package>
