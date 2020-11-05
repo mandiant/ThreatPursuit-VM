@@ -96,7 +96,9 @@ Installed Tools
 - OpenCTI
 - Maltego
 - Splunk 
+- Microsoft MSTIC Jupyter and Python Security Tools 
 - MITRE ATT&CK Navigator
+- Coretex Analyzer
 - Greynoise API and GNQL 
 - threatcrowd API
 - threatcmd
@@ -112,6 +114,7 @@ Installed Tools
 
 - MITRE Calderra
 - Red Canary ATOMIC Red Team
+- Mordor Re-play Adversarial Techniques
 - MITRE Caltack Plugin
 - APTSimulator
 - FlightSim
