@@ -98,7 +98,7 @@ Installed Tools
 - Splunk 
 - Microsoft MSTIC Jupyter and Python Security Tools 
 - MITRE ATT&CK Navigator
-- Coretex Analyzer
+- Cortex Analyzer
 - Greynoise API and GNQL 
 - threatcrowd API
 - threatcmd
