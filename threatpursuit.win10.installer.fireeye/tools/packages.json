@@ -36,6 +36,8 @@
         {"name": "Jupyter.fireeye"},
         {"name": "orbit.fireeye"},
         {"name": "caldera.fireeye"},
+        {"name": "atomicredteam.fireeye"},
+        {"name": "atomictestharness.fireeye"},
         {"name": "ctiattack.fireeye"},
         {"name": "APTSimulator.fireeye"},
         {"name": "flightsim.fireeye"},
