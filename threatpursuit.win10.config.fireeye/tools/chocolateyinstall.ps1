@@ -86,7 +86,7 @@ Set-Content -Path $profile -Value $psprompt
 # Note: The string below is base64-encoded due to issues properly escaping the '$' character in PowersShell
 #   Offending string: "Y21kIC9jICdzZXR4IFBST01QVCBDT01NQU5ETyRTJGQkcyR0JF8kcCQrJGcn"
 #   Resolves to: "cmd /c 'setx PROMPT THREATPURSUIT$S$d$s$t$_$p$+$g'"
-iex ([System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String("Y21kIC9jICdzZXR4IFBST01QVCBDT01NQU5ETyRTJGQkcyR0JF8kcCQrJGcn"))) | Out-Null
+iex ([System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String("Y21kIC9jICdzZXR4IFBST01QVCBUSFJFQVRQVVJTVUlUJFMkZCRzJHQkXyRwJCskZyc"))) | Out-Null
 Write-Host "`t[+] Timestamps added to cmd prompt and PowerShell" -ForegroundColor Green
 
 
