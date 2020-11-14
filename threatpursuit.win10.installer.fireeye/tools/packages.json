@@ -36,8 +36,6 @@
         {"name": "Jupyter.fireeye"},
         {"name": "orbit.fireeye"},
         {"name": "caldera.fireeye"},
-        {"name": "atomicredteam.fireeye"},
-        {"name": "atomictestharness.fireeye"},
         {"name": "ctiattack.fireeye"},
         {"name": "APTSimulator.fireeye"},
         {"name": "flightsim.fireeye"},
@@ -69,6 +67,8 @@
         {"name": "sigma.fireeye"},
         {"name": "amittframework.fireeye"},
         {"name": "hashcheck"},
+        {"name": "atomicredteam.fireeye"}
+        {"name": "atomictestharness.fireeye"}
         {"name": "neo4j-community.fireeye", "x64Only": true},
         {"name": "peview.flare"},
         {"name": "notepadplusplus", "args": "--x86"},
