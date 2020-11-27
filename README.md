@@ -51,6 +51,16 @@ Known Issues
 -----------
 Using Oracle Virtualbox as the virtualisation software running from a Windows 10 physical host, will cause issues with the Docker install. There is currently no workaround other than using VMware Player or VMware Workstation.
 
+Hints and Troubleshooting
+----------------
+* the Windows installation has to be done from the English installation media, just setting language to English isn't sufficient and won't work
+* nested virtualization support for VMware guests:
+  * VM: check in the task manager (more details) -> Performance -> "Virtual machine" must be "Yes"
+  * if this is not the case: 
+    * check the same in the host system
+      * if this is not the case: try your luck in the BIOS configuration
+      * is this is the case: disable nested virtualization for Hyper-V (elevated PowerShell: bcdedit /set hypervisorlaunchtype off)
+  * reboot host, reboot VM, check again
 
 Instructions
 -----------
@@ -62,11 +72,11 @@ Standard install
 3. Take a snapshot of your machine!
 4. Download and copy install.ps1 on your newly configured machine.
 5. Open PowerShell as an Administrator
-6. Unblock the install file by running Unblock-File .\install.ps1
-7. Enable script execution by running Set-ExecutionPolicy Unrestricted -f
+6. Unblock the install file by running `Unblock-File .\install.ps1`
+7. Enable script execution by running `Set-ExecutionPolicy Unrestricted -f`
 8. Finally, execute the installer script as follows:
-.\install.ps1
-You can also pass your password as an argument: .\install.ps1 -password <password>
+`.\install.ps1`
+You can also pass your password as an argument: `.\install.ps1 -password <password>`
 The script will set up the Boxstarter environment and proceed to download and install the ThreatPursuit VM environment. You will be prompted for the administrator password in order to automate host restarts during installation. If you do not have a password set, hitting enter when prompted will also work.
 
 
