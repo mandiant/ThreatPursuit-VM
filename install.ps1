@@ -328,7 +328,7 @@ $fireeyeFeed = "https://www.myget.org/F/fireeye/api/v2"
 iex "choco sources add -n=fireeye -s $fireeyeFeed --priority 1"
 iex "choco upgrade -y vcredist-all.flare"
 iex "choco install -y powershell"
-iex "choco install -y googlechrome.fireeye"
+iex "choco install -y --ignore-checksums googlechrome.fireeye"
 iex "refreshenv"
 
 
